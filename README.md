@@ -58,6 +58,11 @@ See [Reference](https://www.notion.so/ESLint-7e455a7ac78b424892329ee064feaf99).
 yarn add uuidv4
 ```
 
+### Instalar Manipulador de Datas
+```
+yarn add date-fns
+```
+
 ### Startar em DEV
 ```
 yarn dev:server
