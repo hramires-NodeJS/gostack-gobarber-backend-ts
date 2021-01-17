@@ -45,6 +45,11 @@ yarn add ts-node-dev -D
 "dev:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
 ```
 
+### Habilitar Debug (--inspect)
+```
+"dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+```
+
 ### Startar em DEV
 ```
 yarn dev:server
