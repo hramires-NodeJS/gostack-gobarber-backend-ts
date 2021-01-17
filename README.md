@@ -50,6 +50,9 @@ yarn add ts-node-dev -D
 "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
 ```
 
+### Padrões de Projeto com Eslint, Prettier e Editor Config
+See [Reference](https://www.notion.so/ESLint-7e455a7ac78b424892329ee064feaf99).
+
 ### Startar em DEV
 ```
 yarn dev:server
