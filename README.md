@@ -53,6 +53,11 @@ yarn add ts-node-dev -D
 ### Padrões de Projeto com Eslint, Prettier e Editor Config
 See [Reference](https://www.notion.so/ESLint-7e455a7ac78b424892329ee064feaf99).
 
+### Instalar Identificador Único
+```
+yarn add uuidv4
+```
+
 ### Startar em DEV
 ```
 yarn dev:server
