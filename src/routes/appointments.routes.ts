@@ -6,6 +6,8 @@ const appointmentsRouter = Router();
 
 const appointmentsRepository = new AppointmentsRepository();
 
+// DTO - Data Transfer Object
+
 // http://localhost:3333/appointments
 
 appointmentsRouter.get('/', (request, response) => {
@@ -27,7 +29,10 @@ appointmentsRouter.post('/', (request, response) => {
             .json({ message: 'This appointment is already booked' });
     }
 
-    const appointment = appointmentsRepository.create(provider, parsedDate);
+    const appointment = appointmentsRepository.create({
+        provider,
+        date: parsedDate
+    });
 
     return response.json(appointment)
 });
