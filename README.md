@@ -63,6 +63,9 @@ yarn add uuidv4
 yarn add date-fns
 ```
 
+### Services & SOLID
+See [Reference](https://www.notion.so/Repository-service-e-patterns-82419cceb11c4c4fbbc055ade7fb1ac5).
+
 ### Startar em DEV
 ```
 yarn dev:server
