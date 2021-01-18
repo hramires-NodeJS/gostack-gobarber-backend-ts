@@ -66,6 +66,24 @@ yarn add date-fns
 ### Services & SOLID
 See [Reference](https://www.notion.so/Repository-service-e-patterns-82419cceb11c4c4fbbc055ade7fb1ac5).
 
+### TypeORM
+See [Reference](https://typeorm.io/).
+
+### Baixar imagem PostgreSQL
+```
+docker run --name gostack-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
+
+### Listar todos containers
+```
+docker ps -a
+```
+
+### Subir o container
+```
+docker start <id>
+```
+
 ### Startar em DEV
 ```
 yarn dev:server
