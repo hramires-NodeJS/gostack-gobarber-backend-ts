@@ -84,6 +84,11 @@ docker ps -a
 docker start <id>
 ```
 
+### Instalar PostgreSQL
+```
+yarn add typeorm pg
+```
+
 ### Startar em DEV
 ```
 yarn dev:server
