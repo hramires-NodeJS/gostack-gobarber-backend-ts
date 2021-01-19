@@ -84,9 +84,29 @@ docker ps -a
 docker start <id>
 ```
 
-### Instalar PostgreSQL
+### Instalar driver PostgreSQL
 ```
 yarn add typeorm pg
+```
+
+### Criar Migration
+```
+yarn typeorm migration:create -n CreateAppointments
+```
+
+### Executar Migration Banco
+```
+yarn typeorm migration:run
+```
+
+### Desfazer Migration Banco
+```
+yarn typeorm migration:revert
+```
+
+### Mostrar Migrations
+```
+yarn typeorm migration:show
 ```
 
 ### Startar em DEV
